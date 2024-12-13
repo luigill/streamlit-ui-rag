@@ -37,8 +37,8 @@ st.markdown(
 )
 
 # Title and description
-st.title("Leig.ai 🧑‍⚕️🩺💊 ")
-st.write("Faça perguntas sobre a história do curso de medicina da UFPel!")
+st.title("Pelot.ai 👸🧁🐜")
+st.write("Faça perguntas sobre a história da cidade de Pelotas!")
 
 # Input box for the question
 question = st.text_input(
