@@ -53,12 +53,12 @@ if st.button("Enviar"):
         answer = f"This is a mock response to the question: '{question}'"
 
         # Display the answer
-        st.markdown("### Answer:")
+        st.markdown("### Resposta:")
         st.write(answer)
     else:
-        st.warning("Please enter a valid question.")
+        st.warning("Faça uma pergunta!.")
 
 # Space for the answer
 else:
-    st.markdown("### Answer:")
-    st.write("Your answer will appear here after submitting a question.")
+    st.markdown("### Resposta:")
+    st.write("Sua resposta aparecerá aqui....")
